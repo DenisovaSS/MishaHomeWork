@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="src/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,8 +13,8 @@
     <title>1-Б link ZOOM</title>
   </head>
   <body>
-    <section class="header">
-      <div class="container">
+    <div class="container">
+      <section class="header">
         <div class="header_cont">
           <h1>Мишкины уроки</h1>
           <div class="owner_back">
@@ -25,11 +25,21 @@
               title="Мишка-шишка" />
           </div>
         </div>
-      </div>
-    </section>
-    <section class="main">
-      <input type="text" name="today" /><label for="today"></label>
-    </section>
-    <script src="java.js"></script>
+      </section>
+      <section class="main">
+        <label for="bio">
+          <textarea
+            id="bio"
+            name="bio"
+            rows="2"
+            cols="30"
+            placeholder="Copy here...">
+          </textarea>
+        </label>
+        <input type="submit" value="Submit" class="btn" />
+        <div class="text_for">Todays lesson</div>
+      </section>
+    </div>
+    <script src="src/java.js"></script>
   </body>
 </html>

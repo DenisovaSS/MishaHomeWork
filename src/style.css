@@ -40,7 +40,33 @@ h1 {
   color: #78b7bb;
   font-weight: 400;
 }
-
+.main {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  width: 240px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: rgb(63, 76, 119);
+  border: none;
+  color: #78b7bb;
+}
+.text_for {
+  margin-top: 10px;
+  color: rgb(32, 38, 57);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+@media (hover: hover) {
+  .btn:hover {
+    background-color: rgb(32, 38, 57);
+    cursor: pointer;
+  }
+}
 @media (max-width: 600px) {
   h1 {
     font-size: 30px;
