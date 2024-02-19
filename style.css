@@ -1,0 +1,48 @@
+body {
+  background: #e3f6f5;
+}
+
+.header_cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  min-height: 40px;
+  background: linear-gradient(
+    112.1deg,
+    rgb(32, 38, 57) 11.4%,
+    rgb(63, 76, 119) 70.2%
+  );
+  padding: 5px;
+}
+.owner_back {
+  width: 90px;
+  height: 90px;
+  border-radius: 55%;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+
+  overflow: hidden;
+}
+.owner {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  margin: 0;
+  padding-bottom: 10px;
+  font-family: "Pacifico", cursive;
+  font-size: 60px;
+  text-align: center;
+  color: #78b7bb;
+  font-weight: 400;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 30px;
+  }
+}
