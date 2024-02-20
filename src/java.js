@@ -4,6 +4,7 @@ function sendText() {
   const currenrTExt = document.getElementById("bio").value;
   localStorage.setItem("currentLesson", currenrTExt);
   document.querySelector(".text_for").innerHTML = currenrTExt;
+  document.getElementById("bio").value = "";
 }
 function initialText() {
   document.querySelector(".text_for").innerHTML =
